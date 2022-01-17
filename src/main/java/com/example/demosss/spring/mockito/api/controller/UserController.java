@@ -15,8 +15,7 @@ import java.util.ArrayList;
 @AllArgsConstructor
 public class UserController  {
 
-
-    private final UserService userService;
+     private final UserService userService;
 
     @PostMapping
     public ResponseEntity<String> save(@RequestBody UserModel userModel){

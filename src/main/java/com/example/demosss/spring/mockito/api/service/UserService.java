@@ -8,6 +8,8 @@ import com.example.demosss.spring.mockito.api.model.UserModel;
 import com.example.demosss.spring.mockito.api.repository.UserRepository;
 import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.XSlf4j;
+import org.hibernate.validator.internal.util.logging.Log;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
